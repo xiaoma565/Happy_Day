@@ -7,7 +7,7 @@
 
 int MenuDisplay(void)
 {
-    int input_value = 0;
+	int input_value = 0;
 
 	printf("\nPlease input your choise...\n");
 	printf("****** Menu List ******\n");
@@ -15,5 +15,5 @@ int MenuDisplay(void)
 	scanf("%d", &input_value);
 	printf("\n");
 
-    return input_value;
+	return input_value;
 }
